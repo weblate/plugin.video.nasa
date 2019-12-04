@@ -9,9 +9,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <website>http://www.nasa.gov/</website>
+    <website>https://www.nasa.gov/</website>
     <source>https://github.com/XBMC-Addons/plugin.video.nasa</source>
-    <forum>http://forum.xbmc.org/showthread.php?tid=123001</forum>
+    <forum>https://forum.kodi.tv/showthread.php?tid=123001</forum>
     <license>GPL-2.0-only</license>
     <news>
       2.1.0 (04.12.2019)
