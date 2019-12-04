@@ -20,6 +20,10 @@
 import os
 from xbmcswift2 import Plugin
 
+YOUTUBE_URL = 'plugin://plugin.video.youtube/channel/%s/?page=1'
+YOUTUBE_VIDEO_URL = 'plugin://plugin.video.youtube/play/?video_id=%s'
+
+plugin = Plugin()
 
 STRINGS = {
     'page': 30001,
@@ -34,34 +38,29 @@ STATIC_STREAMS = (
     {
         'title': 'Nasa TV HD',
         'logo': 'public.jpg',
-        'stream_url': ('http://nasatv-lh.akamaihd.net/i/'
-                       'NASA_101@319270/master.m3u8'),
+        'fanart': plugin.fanart,
+        'stream_url': (YOUTUBE_VIDEO_URL % '21X5lGlDOfg'),
     }, {
         'title': 'ISS Live Stream',
         'logo': 'iss.jpg',
-        'stream_url': ('http://iphone-streaming.ustream.tv/ustreamVideo/'
-                       '9408562/streams/live/playlist.m3u8'),
-    }, {
-        'title': 'Educational Channel HD',
-        'logo': 'edu.jpg',
-        'stream_url': ('http://nasatv-lh.akamaihd.net/i/'
-                       'NASA_102@319272/master.m3u8'),
+        'fanart': plugin.fanart,
+        'stream_url': (YOUTUBE_VIDEO_URL % 'EEIk7gwjgIM'),
     }, {
         'title': 'Media Channel HD',
         'logo': 'media.jpg',
-        'stream_url': ('http://nasatv-lh.akamaihd.net/i/'
-                       'NASA_103@319271/master.m3u8'),
+        'fanart': plugin.fanart,
+        'stream_url': (YOUTUBE_VIDEO_URL % 'nA9UZF-SZoQ'),
     },{
-        'title': 'ISS HD Earth Viewing - ustream',
+        'title': 'ISS HD Earth Viewing',
         'logo': 'isshd.jpg',
-        'stream_url': ('http://iphone-streaming.ustream.tv/uhls/'
-                       '17074538/streams/live/iphone/playlist.m3u8'),
+        'fanart': plugin.fanart,
+        'stream_url': (YOUTUBE_VIDEO_URL % '2E7l9rZ0cQY'),
     },{
-        'title': 'ISS HD Earth Viewing - urthecast HD',
+        'title': 'ISS HD Earth From Space',
         'logo': 'isshd.jpg',
-        'stream_url': ('http://d2ai41bknpka2u.cloudfront.net/live/'
-                       'iss.stream_source/playlist.m3u8'),
-    },
+        'fanart': plugin.fanart,
+        'stream_url': (YOUTUBE_VIDEO_URL % 'EEIk7gwjgIM'),
+    }
 )
 
 YOUTUBE_CHANNELS = (
@@ -93,11 +92,6 @@ YOUTUBE_CHANNELS = (
     },
 )
 
-YOUTUBE_URL ='plugin://plugin.video.youtube/channel/%s/?page=1'
-
-plugin = Plugin()
-
-
 @plugin.route('/')
 def show_root_menu():
     items = [
@@ -114,8 +108,10 @@ def show_streams():
     items = [{
         'label': stream['title'],
         'thumbnail': get_logo(stream['logo']),
+        'fanart': stream['fanart'],
         'path': stream['stream_url'],
         'is_playable': True,
+        'info': { 'genre': 'Educational', 'title': stream['title'] }
     } for stream in STATIC_STREAMS]
     return plugin.finish(items)
 
