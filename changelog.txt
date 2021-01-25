@@ -1,3 +1,6 @@
+3.0.1+matrix.1 (25.01.2021)
+  - Use tubed instead of youtube for matrix
+
 3.0.0+matrix.1 (12.04.2020)
   - Automatic submissions to matrix
   - Adjust language files
