@@ -17,7 +17,6 @@
       3.0.1 (25.01.2021)
         - Use tubed instead of youtube for matrix
     </news>
-Všetok obsah je dynamický a mal by byť vždy aktuálny.</description>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -89,8 +88,7 @@ Všetok obsah je dynamický a mal by byť vždy aktuálny.</description>
     <description lang="pt_BR">Este plugin de vídeo provê acesso para mais de 1800 vídeos, 8 vodcasts e 4 transmissões ao vivo da TV Nasa[CR]Todos os conteúdos são dinâmicos e e deve estar sempre atualizado.</description>
     <description lang="pt_PT">Esta extensão de vídeo permite-lhe aceder a mais de 1800 vídeos, 8 vodcasts e 4 transmissões em directo da nasa-tv.[CR]Todo este conteúdo é dinâmico e estará sempre actualizado.</description>
     <description lang="ru_RU">Видео-плагин предоставляет доступ к более чем 1800 видео, 8 подкастам и 4 НАСА-ТВ онлайн-потокам[CR]Все содержимое актуально и динамически обновляется.</description>
-    <description lang="sk_SK">Tento video doplnok poskytuje prístup k viac než 1800 videám, 8 Vodcast-om a 4 nasa-tv živým vysielaniam.
-Všetok obsah je dynamický a mal by byť vždy aktuálny.</description>
+    <description lang="sk_SK">Tento video doplnok poskytuje prístup k viac než 1800 videám, 8 Vodcast-om a 4 nasa-tv živým vysielaniam.[CR]Všetok obsah je dynamický a mal by byť vždy aktuálny.</description>
     <description lang="sv_SE">Detta tillägg ger access till mer än 1800 videor, 8 vodcasts och 4 direktsända nasa-tv-kanaler[CR]Allt innehåll är dynamiskt och borde alltid vara uppdaterat.</description>
     <description lang="zh_CN">此视频插件提供访问1800多个视频, 8个播客以及4个美国国家航空和航天管理局电视直播流[CR]全部内容都动态的并保持最新。</description>
   </extension>
