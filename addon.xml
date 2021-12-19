@@ -35,6 +35,7 @@
     <summary lang="en_US">Video plugin to access content from nasa.gov</summary>
     <summary lang="es_AR">Complemento de video para acceder a contenido de nasa.gov</summary>
     <summary lang="es_ES">Complemento de video para acceder a contenido de nasa.gov</summary>
+    <summary lang="es_MX">Complemento de video para acceder a contenido de nasa.gov</summary>
     <summary lang="et_EE">Video plugin nasa.gov sisu näitamiseks</summary>
     <summary lang="eu_ES">Nasa.gov guneko edukiak ikusteko bideo gehigarria</summary>
     <summary lang="fi_FI">Videoliitännäinen nasa.gov-sisällön käyttöä varten</summary>
@@ -71,8 +72,10 @@
     <description lang="en_US">This video plugin provides access to more than 1800 videos, 8 vodcasts and 4 nasa-tv livestreams[CR]All content is dynamic and should be always up to date.</description>
     <description lang="es_AR">Este complemento de video permite acceder a más de 1800 vídeos, 8 vodcasts y 4 canales en directo de la NASA[CR]Todo el contenido es dinámico y debería estar siempre actualizado.</description>
     <description lang="es_ES">Este complemento de video permite acceder a más de 1800 vídeos, 8 vodcasts y 4 canales en directo de la NASA[CR]Todo el contenido es dinámico y debería estar siempre actualizado.</description>
+    <description lang="es_MX">Este complemento de video provee acceso a más de 1800 videos, 8 vodcasts y 4 transmisiones en vivo de nasa-tv[CR]Todo el contenido es dinámico y debería estar siempre actualizado.</description>
     <description lang="et_EE">See video plugin annab ligipääsu enam kui 1800 videole, 8 vodcast ja 4 nasa-tv otseülekandele[CR]Kogu sisu on muutuv ja peaks olema alati värske.</description>
     <description lang="eu_ES">Bideo gehigarri honek 1800 bideotik gora , 8 podcast eta 4 nasta-tv jario [CR] ikusteko aukera ematen du. Eduki guztia dinamikoa da eta beti eguneratua egon beharko litzateke.</description>
+    <description lang="fi_FI">Tämä videolaajennus tarjoaa pääsyn yli 1800 videoon, 8 vodcastiin ja 4 nasa-tv:n livestreamiin[CR]Kaikki sisältö on dynaamista ja sen tulisi olla aina ajan tasalla.</description>
     <description lang="fr_CA">Ce plugiciel vidéo fournit l'accès à plus de 1 800 vidéos, 8 balados vidéo et 4 diffusion en direct.[CR]Tout le contenu est dynamique et devrait être à jour en tout temps.</description>
     <description lang="fr_FR">Ce plugin vidéo permet l'accès à plus de 1800 vidéos, 8 podcasts vidéos, et 4 services de streaming vidéo live nasa[CR]Tout le contenu est dynamique et mis à jour.</description>
     <description lang="gl_ES">Este engadido de vídeo fornece de acceso a máis de 1800 vídeos, 8 vodcasts e 4 fluxos ao vivo de nasa-tv[CR]Todo o contido e dinámico e ten de estar sempre actualizado.</description>
@@ -85,7 +88,7 @@
     <description lang="lv_LV">Šis video spraudnis nodrošina piekļuvi vairāk nekā 1800 video, 8 vodcastiem un 4 nasa-tv tiešraidēm [CR] Viss saturs ir dinamisks un vienmēr būs aktuāls.</description>
     <description lang="nl_NL">Deze video plugin geeft toegang tot meer dan 1800 videos, 8 vodcasts en 4 nasa-tv livestreams[CR]Alle content is dynamisch en zal altijd up to date zijn.</description>
     <description lang="pl_PL">Wtyczka wideo zapewnia dostęp do ponad 1800 filmów, 8 vodcastsów oraz 4 kanałów Nasa-TV[CR]Cała zawartość jest dynamiczna i powinna być zawsze aktualna.</description>
-    <description lang="pt_BR">Este plugin de vídeo provê acesso para mais de 1800 vídeos, 8 vodcasts e 4 transmissões ao vivo da TV Nasa[CR]Todos os conteúdos são dinâmicos e e deve estar sempre atualizado.</description>
+    <description lang="pt_BR">Este plugin de vídeo provê acesso para mais de 1800 vídeos, 8 vodcasts e 4 transmissões ao vivo da TV Nasa[CR]Todo o conteúdo é dinâmico e deve estar sempre atualizado.</description>
     <description lang="pt_PT">Esta extensão de vídeo permite-lhe aceder a mais de 1800 vídeos, 8 vodcasts e 4 transmissões em directo da nasa-tv.[CR]Todo este conteúdo é dinâmico e estará sempre actualizado.</description>
     <description lang="ru_RU">Видео-плагин предоставляет доступ к более чем 1800 видео, 8 подкастам и 4 НАСА-ТВ онлайн-потокам[CR]Все содержимое актуально и динамически обновляется.</description>
     <description lang="sk_SK">Tento video doplnok poskytuje prístup k viac než 1800 videám, 8 Vodcast-om a 4 nasa-tv živým vysielaniam.[CR]Všetok obsah je dynamický a mal by byť vždy aktuálny.</description>
