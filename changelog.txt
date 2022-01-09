@@ -1,3 +1,6 @@
+3.0.2+matrix.1 (09.01.2022)
+  - Add setting to choose default playback addon, defaults to youtube
+
 3.0.1+matrix.1 (25.01.2021)
   - Use tubed instead of youtube for matrix
 
